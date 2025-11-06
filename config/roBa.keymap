@@ -112,10 +112,10 @@
 
         MOUSE {
             bindings = <
-&kp Q                     &to_layer_0 W         &to_layer_0 E             &to_layer_0 R  &to_layer_0 T                                         &to 0              &to_layer_0 U       &to_layer_0 I       &to_layer_0 O    &to_layer_0 P
-&to_layer_0 A             &to_layer_0 S         &to_layer_0 D             &to_layer_0 F  &to_layer_0 G          &kp Y                   &to 0  &to_layer_0 H      &mkp_exit_AML LCLK  &mkp_exit_AML RCLK  &to_layer_0 L    &to_layer_0 SEMI
-&to_layer_0 LEFT_SHIFT    &kp Z                 &kp X                     &kp C          &kp V                  &kp B                   &to 0  &to_layer_0 N      &to_layer_0 M       &to_layer_0 COMMA   &to_layer_0 DOT  &to_layer_0 FSLH
-&to_layer_0 LEFT_CONTROL  &to_layer_0 LEFT_ALT  &to_layer_0 LEFT_COMMAND  &to 0          &to_layer_0 BACKSPACE  &to_layer_0 ESCAPE      &to 0  &to_layer_0 SPACE                                                           &to_layer_0 TAB
+&kp Q                     &to_layer_0 W         &to_layer_0 E             &to_layer_0 R  &to_layer_0 T                                         &to 0              &to_layer_0 U       &to_layer_0 I       &to_layer_0 O         &to_layer_0 P
+&to_layer_0 A             &to_layer_0 S         &to_layer_0 D             &to_layer_0 F  &to_layer_0 G          &kp Y                   &to 0  &to_layer_0 H      &mkp_exit_AML LCLK  &mkp_exit_AML RCLK  &to_layer_0 L         &to_layer_0 SEMI
+&to_layer_0 LEFT_SHIFT    &kp Z                 &kp X                     &kp C          &kp V                  &kp B                   &to 0  &to_layer_0 N      &to_layer_0 M       &to_layer_0 COMMA   &lt_to_layer_0 3 DOT  &to_layer_0 FSLH
+&to_layer_0 LEFT_CONTROL  &to_layer_0 LEFT_ALT  &to_layer_0 LEFT_COMMAND  &to 0          &to_layer_0 BACKSPACE  &to_layer_0 ESCAPE      &to 0  &to_layer_0 SPACE                                                                &to_layer_0 TAB
             >;
         };
 
@@ -130,10 +130,10 @@
 
         LAYER_1 {
             bindings = <
-&kp GRAVE  &kp N7  &kp N8  &kp N9  &trans                      &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans  &trans
-&kp N0     &kp N4  &kp N5  &kp N6  &trans  &trans      &trans  &trans  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans  &trans
-&trans     &kp N1  &kp N2  &kp N3  &trans  &trans      &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans
-&trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans                                               &trans
+&kp GRAVE  &kp N7  &kp N8  &kp N9  &trans                      &kp BACKSLASH  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE        &trans
+&kp N0     &kp N4  &kp N5  &kp N6  &trans  &trans      &trans  &kp MINUS      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp UNDERSCORE  &trans
+&trans     &kp N1  &kp N2  &kp N3  &trans  &trans      &trans  &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PLUS        &trans
+&trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                              &trans
             >;
         };
 
