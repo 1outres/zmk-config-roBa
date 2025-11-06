@@ -80,6 +80,7 @@
             label = "ENCODER_MSC_DOWN_UP";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
             tap-ms = <20>;
         };
     };
@@ -94,6 +95,8 @@
 &kp Z  &kp X        &kp C             &kp V             &kp B      &kp ESC      &none  &kp N      &kp M              &kp COMMA        &lt 2 DOT            &kp SLASH
 &none  &none        &kp LEFT_COMMAND  &kp BACKSPACE     &kp ENTER  &none        &none  &kp SPACE                                                           &kp TAB
             >;
+
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         o24 {
