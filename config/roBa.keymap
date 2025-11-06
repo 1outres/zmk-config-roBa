@@ -77,7 +77,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        DEFAULT {
             bindings = <
 &kp Q  &kp W        &kp E             &kp R             &kp T                          &kp Y      &kp U              &kp I            &kp O                &kp P
 &kp A  &mt LCTRL S  &mt LEFT_ALT D    &mt LEFT_SHIFT F  &kp G      &none        &none  &kp H      &mt RIGHT_SHIFT J  &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &kp SEMICOLON
@@ -86,7 +86,7 @@
             >;
         };
 
-        o24 {
+        O24 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
@@ -95,12 +95,21 @@
             >;
         };
 
-        mouse {
+        MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+            >;
+        };
+
+        SCROLL {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
