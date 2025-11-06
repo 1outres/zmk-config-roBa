@@ -139,10 +139,10 @@
 
         LAYER_2 {
             bindings = <
-&kp TILDE  &kp AMPS  &kp STAR   &kp LPAR   &trans                      &trans  &trans  &trans  &trans  &trans
-&kp RPAR   &kp DLLR  &kp PRCNT  &kp CARET  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &kp EXCL  &kp AT     &kp HASH   &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans    &trans     &trans     &trans  &trans      &trans  &trans                          &trans
+&kp TILDE  &kp AMPS  &kp STAR   &kp LPAR   &trans                      &trans          &trans          &trans        &trans           &trans
+&kp RPAR   &kp DLLR  &kp PRCNT  &kp CARET  &trans  &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&trans     &kp EXCL  &kp AT     &kp HASH   &trans  &trans      &trans  &trans          &trans          &trans        &trans           &trans
+&trans     &trans    &trans     &trans     &trans  &trans      &trans  &trans                                                         &trans
             >;
         };
     };
