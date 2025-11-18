@@ -33,17 +33,17 @@ layers:
   - N
   - M
   - ','
-  - {t: ., h: SCROLL}
+  - .
   - /
   - LCTRL
   - LALT
-  - {t: LANG1, h: LEFT COMMAND}
+  - LEFT COMMAND
   - {t: ENTER, h: LAYER_1}
   - BACKSPACE
   - {t: ESCAPE, h: LAYER_2}
-  - {t: LANG2, h: LAYER_1}
-  - {t: SPACE, h: LAYER_2}
-  - TAB
+  - {t: LAYER_2, h: sticky}
+  - SPACE
+  - {t: TAB, h: LAYER_1}
   O24:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -89,7 +89,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
-  - Q
+  - '&to_layer_0 Q'
   - '&to_layer_0 W'
   - '&to_layer_0 E'
   - '&to_layer_0 R'
@@ -104,33 +104,33 @@ layers:
   - '&to_layer_0 D'
   - '&to_layer_0 F'
   - '&to_layer_0 G'
-  - Y
+  - '&to_layer_0 Y'
   - {t: DEFAULT, h: toggle}
   - '&to_layer_0 H'
   - '&mkp_exit_AML LCLK'
   - '&mkp_exit_AML RCLK'
-  - '&to_layer_0 L'
+  - {t: '&to_layer_0 L', h: SCROLL}
   - '&to_layer_0 SEMI'
-  - '&to_layer_0 LEFT_SHIFT'
-  - Z
-  - X
-  - C
-  - V
-  - B
+  - LEFT SHIFT
+  - '&to_layer_0 Z'
+  - '&to_layer_0 X'
+  - '&to_layer_0 C'
+  - '&to_layer_0 V'
+  - '&to_layer_0 B'
   - {t: DEFAULT, h: toggle}
   - '&to_layer_0 N'
-  - '&to_layer_0 M'
-  - '&to_layer_0 COMMA'
-  - {t: '&to_layer_0 DOT', h: SCROLL}
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - '&to_layer_0 DOT'
   - '&to_layer_0 FSLH'
-  - '&to_layer_0 LEFT_CONTROL'
-  - '&to_layer_0 LEFT_ALT'
-  - '&to_layer_0 LEFT_COMMAND'
-  - {t: ENTER, h: LAYER_1}
+  - LEFT CONTROL
+  - LEFT ALT
+  - LEFT COMMAND
+  - {t: '&to_layer_0 ENTER', h: LAYER_1}
   - '&to_layer_0 BACKSPACE'
-  - '&to_layer_0 ESCAPE'
-  - {t: DEFAULT, h: toggle}
-  - '&to_layer_0 SPACE'
+  - {t: '&to_layer_0 ESCAPE', h: LAYER_2}
+  - {t: '&to_layer_0 ESCAPE', h: LAYER_1}
+  - {t: '&to_layer_0 SPACE', h: LAYER_2}
   - '&to_layer_0 TAB'
   SCROLL:
   - ''
@@ -153,19 +153,19 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -265,13 +265,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [11, 12]
-  k: TAB
 - p: [12, 13]
-  k: Sft+TAB
-- p: [11, 10]
-  k: '&to_layer_0 INT_MUHENKAN'
-- p: [20, 21]
-  k: '"'
-- p: [24, 25]
-  k: '='
+  k: LANG2
+- p: [18, 19]
+  k: LANG1
