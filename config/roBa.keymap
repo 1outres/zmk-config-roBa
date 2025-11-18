@@ -75,6 +75,7 @@
 
         sl_mouse: sl_mouse {
             compatible = "zmk,behavior-sticky-layer";
+            #binding-cells = <1>;
             label = "SL_MOUSE";
             release-after-ms = <200>;
         };
