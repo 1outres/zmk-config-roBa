@@ -59,7 +59,7 @@
         O24 {
             bindings = <
 &kp Q      &kp L     &kp U     &kp COMMA  &kp DOT                             &trans  &kp W  &kp R  &kp Y  &kp P
-&kp E      &kp I     &kp A     &kp U      &kp MINUS  &kp F         &trans     &kp K   &kp T  &kp N  &kp S  &kp H
+&kp E      &kp I     &kp A     &kp O      &kp MINUS  &kp F         &trans     &kp K   &kp T  &kp N  &kp S  &kp H
 &kp LSHFT  &kp Z     &kp X     &kp C      &kp V      &kp SEMI      &kp SLASH  &kp G   &kp D  &kp M  &kp J  &kp B
 &kp LCTRL  &kp LALT  &kp LGUI  &trans     &trans     &trans        &trans     &trans                       &trans
             >;
