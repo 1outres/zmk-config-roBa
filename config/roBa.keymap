@@ -1,20 +1,16 @@
+#include <input/processors.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <input/processors.dtsi>
 
 &mt {
     flavor = "balanced";
     quick-tap-ms = <200>;
 };
 
-&lt {
-    quick-tap-ms = <200>;
-};
+&lt { quick-tap-ms = <200>; };
 
-&mkp_input_listener {
-    input-processors = <&zip_temp_layer 2 200>;
-};
+&mkp_input_listener { input-processors = <&zip_temp_layer 2 200>; };
 
 &trackball {
     scroll-layers = <3>;
@@ -47,12 +43,6 @@
         };
     };
 
-    macros {
-    };
-
-    behaviors {
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -76,10 +66,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                       &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp LCLK  &mkp RCLK  &mo 3   &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB4   &mkp MB5   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
