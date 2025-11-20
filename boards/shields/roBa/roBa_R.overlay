@@ -1,5 +1,20 @@
 #include "roBa.dtsi"
 
+&zip_temp_layer {
+    excluded-positions = <
+        18
+        19
+        20
+        30
+        31
+        22
+        34
+        35
+        36
+    >;
+    require-prior-idle-ms = <200>;
+};
+
 &default_transform {
     col-offset = <6>;
 };
@@ -19,6 +34,8 @@
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
+
+        input-processors = <&zip_temp_layer 2 10000>;
     };
 };
 

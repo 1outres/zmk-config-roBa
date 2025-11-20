@@ -11,8 +11,11 @@
     quick-tap-ms = <200>;
 };
 
+&mkp_input_listener {
+    input-processors = <&zip_temp_layer 2 200>;
+};
+
 &trackball {
-    automouse-layer = <2>;
     scroll-layers = <3>;
 
     // arrows {
