@@ -6,7 +6,7 @@ layers:
   - E
   - R
   - T
-  - ''
+  - ESCAPE
   - U
   - I
   - O
@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - Y
-  - ''
+  - ''''
   - H
   - J
   - K
@@ -29,7 +29,7 @@ layers:
   - C
   - V
   - B
-  - ''
+  - '-'
   - N
   - M
   - ','
@@ -40,48 +40,48 @@ layers:
   - LEFT COMMAND
   - {t: ENTER, h: LAYER_1}
   - BACKSPACE
-  - {t: ESCAPE, h: LAYER_2}
-  - {t: LAYER_2, h: sticky}
-  - SPACE
-  - {t: TAB, h: LAYER_1}
+  - SYSTEM
+  - TAB
+  - {t: SPACE, h: LAYER_2}
+  - LAYER_1
   O24:
+  - Q
+  - L
+  - U
+  - ','
+  - .
   - {t: ▽, type: trans}
+  - W
+  - R
+  - Y
+  - P
+  - E
+  - I
+  - A
+  - O
+  - '-'
+  - F
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - K
+  - T
+  - N
+  - S
+  - H
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - ;
+  - /
+  - G
+  - D
+  - M
+  - J
+  - B
+  - LCTRL
+  - LALT
+  - LGUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -89,49 +89,49 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
-  - '&to_layer_0 Q'
-  - '&to_layer_0 W'
-  - '&to_layer_0 E'
-  - '&to_layer_0 R'
-  - '&to_layer_0 T'
-  - {t: DEFAULT, h: toggle}
-  - '&to_layer_0 U'
-  - '&to_layer_0 I'
-  - '&to_layer_0 O'
-  - '&to_layer_0 P'
-  - '&to_layer_0 A'
-  - '&to_layer_0 S'
-  - '&to_layer_0 D'
-  - '&to_layer_0 F'
-  - '&to_layer_0 G'
-  - '&to_layer_0 Y'
-  - {t: DEFAULT, h: toggle}
-  - '&to_layer_0 H'
-  - '&mkp_exit_AML LCLK'
-  - '&mkp_exit_AML RCLK'
-  - {t: '&to_layer_0 L', h: SCROLL}
-  - '&to_layer_0 SEMI'
-  - LEFT SHIFT
-  - '&to_layer_0 Z'
-  - '&to_layer_0 X'
-  - '&to_layer_0 C'
-  - '&to_layer_0 V'
-  - '&to_layer_0 B'
-  - {t: DEFAULT, h: toggle}
-  - '&to_layer_0 N'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - SCROLL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp MB4'
   - '&mkp MB5'
-  - '&to_layer_0 DOT'
-  - '&to_layer_0 FSLH'
-  - LEFT CONTROL
-  - LEFT ALT
-  - LEFT COMMAND
-  - {t: '&to_layer_0 ENTER', h: LAYER_1}
-  - '&to_layer_0 BACKSPACE'
-  - {t: '&to_layer_0 ESCAPE', h: LAYER_2}
-  - {t: '&to_layer_0 ESCAPE', h: LAYER_1}
-  - {t: '&to_layer_0 SPACE', h: LAYER_2}
-  - '&to_layer_0 TAB'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   SCROLL:
   - ''
   - ''
@@ -181,7 +181,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - {t: ▽, type: trans}
+  - Sft+Gui+4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -191,8 +191,8 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+UP ARROW
+  - VOL UP
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
@@ -204,7 +204,7 @@ layers:
   - '2'
   - '3'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - VOL DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -254,6 +254,50 @@ layers:
   - '['
   - ']'
   - +
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  SYSTEM:
+  - BT CLR ALL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: ▽, type: trans}
+  - {t: O24, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
