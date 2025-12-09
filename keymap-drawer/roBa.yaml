@@ -6,7 +6,7 @@ layers:
   - E
   - R
   - T
-  - ESCAPE
+  - SYSTEM
   - U
   - I
   - O
@@ -40,7 +40,7 @@ layers:
   - LEFT COMMAND
   - {t: ENTER, h: LAYER_1}
   - BACKSPACE
-  - SYSTEM
+  - ESCAPE
   - TAB
   - {t: SPACE, h: LAYER_2}
   - LAYER_1
@@ -270,7 +270,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -304,7 +304,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
